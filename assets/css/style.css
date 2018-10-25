@@ -18,6 +18,18 @@ body {
 	width: 100vw;
 }
 
+#mybacktotop {
+	text-decoration: none;
+	color: rgba(100,10,10,.5);
+	font-size: xx-large;
+}
+
+#mybacktotop:hover {
+	color: rgba(100,10,10,1);
+	text-shadow: 1px 1px 1px rgba(10,10,10,1);
+	transition: .3s;
+}
+
 /*for mylanding*/
 /*left side*/
 #mylanding-left {
@@ -254,6 +266,18 @@ body {
 	padding: 0;
 }
 
+#mygethelp-top {
+	text-decoration: none;
+	color: rgba(100,10,10,.5);
+	font-size: x-large;
+}
+
+#mygethelp-top:hover {
+	color: rgba(100,10,10,1);
+	text-shadow: 1px 1px 1px rgba(10,10,10,1);
+	transition: .3s;
+}
+
 #mygethelp-content .card{
 	border: transparent;
 	background-color: transparent;
@@ -268,13 +292,19 @@ body {
 	background-color: transparent;
 }
 
-#mygethelp-content h2{
+#mygethelp-content h3{
 	font-weight: bolder;
 	letter-spacing: 1px;
+	text-shadow: 0px 0px 1px rgba(10,10,10,.9);
 }
 
-#mygethelp-content h4{
+#mygethelp-content h5{
 	font-weight: bold;
+	text-shadow: 0px 0px 1px rgba(10,10,10,.9);
+}
+
+#mygethelp-content ul {
+	font-size: 90%;
 }
 
 #mygethelp-button1 {
@@ -524,13 +554,13 @@ body {
 	font-size: 90%;
 	}
 
-	#mygethelp-content h2{
+	#mygethelp-content h3{
 	font-size: 150%;
 	font-weight: bolder;
 	letter-spacing: 1px;
 	}
 
-	#mygethelp-content h4{
+	#mygethelp-content h5{
 	font-size: 120%;
 	font-weight: bold;
 	}
@@ -554,6 +584,13 @@ body {
 	#mygethelp-accordion td{
 	word-wrap: break-word;
 	padding: 0;
+	}
+
+	#mygethelp-top {
+	text-decoration: none;
+	color: rgba(100,10,10,.5);
+	font-size: large;
 }
 	/*end of my gethelp*/
+
 }
