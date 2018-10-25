@@ -249,6 +249,7 @@ body {
 	border: 1px solid hsla(0, 0%, 0%,.3);
 	height: 86vh;
 	overflow-y: scroll;
+	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
 	padding: 0;
 }
@@ -259,7 +260,17 @@ body {
 
 #myresources-accordion {
 	margin: 0;
+	padding: 0;
 }
+
+#myresources-accordion table{
+	table-layout: fixed;
+}
+
+#myresources-accordion td{
+	word-wrap: break-word;
+}
+
 
 /*end of content*/
 /*end of resources*/
@@ -426,5 +437,26 @@ body {
 	#myresources-content h1{
 	font-size: 150%;
 	}
+
+	#myresources-free-box{
+	padding: 0;
+	}
+
+	#myresources-paid-box{
+	padding: 0;
+	}
+
+	#myresources-visayas-box{
+	padding: 0;
+	}
+
+	#myresources-mindanao-box{
+	padding: 0;
+	}
+
+	#myresources-accordion td{
+	word-wrap: break-word;
+	padding: 0;
+}
 	/*end of my resources*/
 }
