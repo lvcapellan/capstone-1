@@ -175,6 +175,10 @@ body {
 	font-weight: bolder;
 }
 
+#myhome-nav {
+	text-align: center;
+}
+
 #myhome-nav a{
 	text-decoration: none;
 	color: hsla(196, 100%, 35%, 1);
@@ -591,8 +595,12 @@ body {
 	#mygethelp-top {
 	text-decoration: none;
 	color: rgba(100,10,10,.5);
+	font-size: smaller;
+	}
+
+	#mybacktotop {
 	font-size: large;
-}
+	}
 	/*end of my gethelp*/
 
 }
