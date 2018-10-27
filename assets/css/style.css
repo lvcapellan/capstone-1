@@ -11,6 +11,7 @@
 body {
 	background-color: rgba(240,240,240,.69);
 	width: 100vw;
+	overflow-x: hidden;
 }
 
 #mydisclaimer {
@@ -205,7 +206,7 @@ body {
 	background-color: transparent;
 	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
 	border: 1px solid hsla(0, 0%, 0%,.3);
-	height: 86vh;
+	height: 84vh;
 	overflow-y: scroll;
 	font-family: 'Roboto', sans-serif;
 	padding: 1rem;
@@ -270,7 +271,7 @@ body {
 	background-color: transparent;
 	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
 	border: 1px solid hsla(0, 0%, 0%,.3);
-	height: 86vh;
+	height: 84vh;
 	overflow-y: scroll;
 	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
@@ -402,6 +403,21 @@ body {
 /*end of content*/
 /*end of gethelp*/
 
+/*read*/
+#myread-content {
+	overflow-x: hidden;
+	height: 84vh;
+}
+
+#myread-carousel {
+	padding: 0px;
+}
+
+#myread-carousel-text {
+	width: 100%;
+}
+/*/end of read*/
+
 
 
 /*ACTIVE PAGE*/
@@ -440,12 +456,16 @@ body {
 /*Desktop Styles*/
 @media only screen and (min-width: 992px){
 	/*for mylanding*/
+	#mylanding-carousel {
+		width: 60%;
+	}
+
 	#mylanding-left {
 		font-size: 1.3rem;
 	}
 
 	#mylanding-left-header {
-		font-size: 2rem;
+		font-size: 2.4rem;
 		font-weight: bolder;
 	}
 
@@ -469,7 +489,7 @@ body {
 	}
 
 	.myhome-preview-article {
-	height: 15rem;
+		height: 15rem;
 	}
 	/*end of myhome*/
 }
@@ -477,19 +497,22 @@ body {
 /*Tablet Styles*/
 @media only screen and (min-width: 577px) and (max-width: 991px){
 	/*for mylanding*/
+	#mylanding-carousel {
+		width: 100%;
+	}
 	#mylanding-left {
 		font-size: 1.1rem;
-		height: 100vh;
+		height: 94vh;
 	}
 
 	#mylanding-left-header {
-		font-size: 1.5rem;
+		font-size: 2rem;
 		font-weight: bolder;
 	}
 
 	#mylanding-right {
 		font-size: 1.1rem;
-		height: 100vh;
+		height: 94vh;
 	}
 
 	#mylanding-right-text {
@@ -504,7 +527,7 @@ body {
 
 	/*for myhome*/
 	.myhome-preview-article {
-	height: 15rem;
+		height: 15rem;
 	}
 	/*end of myhome*/
 
@@ -516,6 +539,10 @@ body {
 /*Mobile Styles*/
 @media only screen and (max-width: 576px){
 	/*for mylanding*/
+	#mylanding-carousel {
+		width: 100%;
+	}
+
 	#mylanding-left {
 		font-size: .75rem;
 		height: 100vh;
@@ -550,59 +577,59 @@ body {
 	}
 
 	.myhome-preview-article {
-	height: 27rem;
+		height: 27rem;
 	}
 	/*end of myhome*/
 
 	/*my gethelp*/
 	#mygethelp-content {
-	font-size: 85%; 
+		font-size: 85%; 
 	}
 
 	#mygethelp-content blockquote{
-	font-size: 90%;
+		font-size: 90%;
 	}
 
 	#mygethelp-content h3{
-	font-size: 150%;
-	font-weight: bolder;
-	letter-spacing: 1px;
+		font-size: 150%;
+		font-weight: bolder;
+		letter-spacing: 1px;
 	}
 
 	#mygethelp-content h5{
-	font-size: 120%;
-	font-weight: bold;
+		font-size: 120%;
+		font-weight: bold;
 	}
 
 	#mygethelp-free-box{
-	padding: 0;
+		padding: 0;
 	}
 
 	#mygethelp-paid-box{
-	padding: 0;
+		padding: 0;
 	}
 
 	#mygethelp-visayas-box{
-	padding: 0;
+		padding: 0;
 	}
 
 	#mygethelp-mindanao-box{
-	padding: 0;
+		padding: 0;
 	}
 
 	#mygethelp-accordion td{
-	word-wrap: break-word;
-	padding: 0;
+		word-wrap: break-word;
+		padding: 0;
 	}
 
 	#mygethelp-top {
-	text-decoration: none;
-	color: rgba(100,10,10,.5);
-	font-size: smaller;
+		text-decoration: none;
+		color: rgba(100,10,10,.5);
+		font-size: smaller;
 	}
 
 	#mybacktotop {
-	font-size: large;
+		font-size: large;
 	}
 	/*end of my gethelp*/
 
