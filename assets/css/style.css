@@ -19,20 +19,21 @@ body {
 	width: 100vw;
 }
 
-#mygethelp-immediately {
-	border: 1px solid hsla(348, 90%, 50%,.9);
+#mygethelp-immediate {
 	border-radius: 5px;
-	background-color: hsla(348, 90%, 50%,.9);
-	color: hsla(360, 100%, 100%,.85);
-	font-weight: bold;
-	box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
-	width: 25%;
+	box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, .2);
+	color: hsla(348, 90%, 50%,.9);
+	border: 2px dashed hsla(348, 90%, 50%,.9);
+	font-weight: bolder;
+	width: 23%;
 	height: 3rem;
 	margin: 0 auto;
+	margin-top: 1rem;
 	text-align: center;
 }
 
-#mygethelp-immediately:hover{
+#mygethelp-immediate:hover{
+	box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
 	border: 1px solid hsla(350, 100%, 50%,1);
 	background-color: hsla(350, 100%, 50%,1);
 	color: hsla(360, 100%, 100%,1);
@@ -427,6 +428,20 @@ body {
 #myread-content {
 	overflow-x: hidden;
 	height: 84vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+#myread-content p{
+	margin-top: 1rem;
+}
+
+#myread-content h3{
+	margin-top: 2rem;
+}
+
+.myread-image {
+	max-height: 20rem;
+	max-width: 20rem;
 }
 /*/end of read*/
 
@@ -508,8 +523,8 @@ body {
 
 /*Tablet Styles*/
 @media only screen and (min-width: 577px) and (max-width: 991px){
-	#mygethelp-immediately {
-	width: 35%;
+	#mygethelp-immediate {
+	width: 30%;
 	}
 
 	/*for mylanding*/
@@ -554,8 +569,8 @@ body {
 
 /*Mobile Styles*/
 @media only screen and (max-width: 576px){
-	#mygethelp-immediately {
-	width: 75%;
+	#mygethelp-immediate {
+	width: 80%;
 	}
 
 	/*for mylanding*/
