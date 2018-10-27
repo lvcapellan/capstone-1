@@ -416,6 +416,10 @@ body {
 #myread-carousel-text {
 	width: 100%;
 }
+
+#myread-carousel-indicators {
+	color: black;
+}
 /*/end of read*/
 
 
