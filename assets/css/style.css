@@ -450,6 +450,10 @@ body {
 .myread-image {
 	max-height: 20rem;
 	max-width: 20rem;
+	-webkit-user-select: none;       
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 /*/end of read*/
 
