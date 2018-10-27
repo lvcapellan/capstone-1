@@ -229,6 +229,7 @@ body {
 	border: 1px solid hsla(0, 0%, 0%,.3);
 	height: 84vh;
 	overflow-y: scroll;
+	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
 	padding: 1rem;
 }
@@ -424,11 +425,18 @@ body {
 /*end of content*/
 /*end of gethelp*/
 
+
+
 /*read*/
 #myread-content {
-	overflow-x: hidden;
+	background-color: transparent;
+	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
+	border: 1px solid hsla(0, 0%, 0%,.3);
 	height: 84vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
+	padding: 0;
 }
 
 #myread-content p{
@@ -444,6 +452,21 @@ body {
 	max-width: 20rem;
 }
 /*/end of read*/
+
+
+
+/*mycommunity*/
+#mycommunity-content {
+	background-color: transparent;
+	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
+	border: 1px solid hsla(0, 0%, 0%,.3);
+	height: 84vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+}
+/*end of mycommunity*/
 
 
 
@@ -564,7 +587,7 @@ body {
 
 	/*my gethelp*/
 	
-	/*end of my gethelp*/
+	/*end of mygethelp*/
 }
 
 /*Mobile Styles*/
@@ -616,13 +639,13 @@ body {
 	}
 	/*end of myhome*/
 
-	/*my gethelp*/
+	/*mygethelp*/
 	#mygethelp-content {
-		font-size: 85%; 
+		font-size: 100%; 
 	}
 
 	#mygethelp-content blockquote{
-		font-size: 90%;
+		font-size: 100%;
 	}
 
 	#mygethelp-content h3{
@@ -666,6 +689,11 @@ body {
 	#mybacktotop {
 		font-size: large;
 	}
-	/*end of my gethelp*/
+	/*end of mygethelp*/
 
-}
+	.myread-image {
+	max-height: 15rem;
+	max-width: 15rem;
+	}
+	/*end of myread*/
+}	
