@@ -55,7 +55,8 @@ body {
 /*for mylanding*/
 /*left side*/
 #mylanding-left {
-	background-color: hsla(196, 100%, 65%,.3);
+	background-color: hsla(196, 100%, 85%,1);
+	background-color: linear-gradient(90deg, rgba(179,241,255,1) 0%, rgba(113,220,244,1) 50%, rgba(60,191,221,1) 100%);
 	box-shadow: inset 0 0 10px 0 hsla(196, 100%, 45%,.3);
 	border: 1px solid hsla(0, 0%, 0%,.3);
 	height: 95vh;
@@ -181,6 +182,7 @@ body {
 
 #myhome-banner {
 	background-color: hsla(191,100%,85%, 1);
+	background-color: linear-gradient(90deg, rgba(179,241,255,1) 0%, rgba(113,220,244,1) 50%, rgba(60,191,221,1) 100%);
 	box-shadow: inset 0 0px 5px 1px hsla(191,100%,60%, .3);
 }
 
