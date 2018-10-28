@@ -188,6 +188,14 @@ body {
 	transition: .3s;
 }
 
+#mylanding-click-close {
+	border: none;
+}
+
+#mylanding-click-close:hover {
+	background-color: inherit;
+	color: inherit;
+}
 /*end of right side*/
 /*end mylanding*/
 
