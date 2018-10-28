@@ -503,6 +503,43 @@ body {
 	-ms-user-select: none;
 	user-select: none;
 }
+
+#myread-accordion {
+	margin: 0;
+	padding: 0;
+}
+
+#myread-content .card,
+#myread-content .card-header,
+#myread-content .card-body
+{
+	border: transparent;
+	background-color: transparent;
+}
+
+#myread-mh-box,
+#myread-ews-box,
+#myread-mhnw-box {
+	padding: 0;
+}
+
+#myread-button,
+#myread-button1,
+#myread-button2 {
+	border: 2px solid hsla(196, 100%, 45%,1);
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	background-color: hsla(0,0%,90%,.6);
+	color: inherit;
+	padding: .25rem;
+	box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%,.3);
+}
+
+#myread-content #myread-latestarticle {
+	font-family: 'Exo 2', sans-serif;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 3px rgba(10,10,10,.69);
+}
 /*/end of read*/
 
 
@@ -740,9 +777,23 @@ body {
 	}
 	/*end of mygethelp*/
 
+	/*myread*/
 	.myread-image {
 		max-height: 15rem;
 		max-width: 15rem;
+	}
+	/*#myread-article4,*/
+	#myread-article3,
+	#myread-article2,
+	#myread-article1 {
+		padding-top: 6rem;
+		/*padding-bottom: 6rem;*/
+		margin-top: 6rem;
+		/*margin-bottom: 6rem;*/
+	}
+	#myread-content #myread-latestarticle {
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
 	}
 	/*end of myread*/
 }	
