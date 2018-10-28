@@ -594,6 +594,21 @@ body {
 	border-left: 1px solid rgba(10,10,10,.8);
 }
 
+#myread-content .card {
+	border: transparent;
+	background-color: transparent;
+}
+
+#myread-content .card-header {
+	border: transparent;
+	background-color: transparent;
+}
+
+#myread-content .card-body {
+	border: transparent;
+	background-color: transparent;
+}
+
 /*#myread-article1-background {
 	background-color: rgba(240,240,240,.8);
 	border-radius: 10px;
