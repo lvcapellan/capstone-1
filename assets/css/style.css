@@ -590,6 +590,10 @@ body {
 	text-shadow: 1px 1px 3px rgba(10,10,10,.69);
 }
 
+#myread-article-all .myread-comment-reply {
+	border-left: 1px solid rgba(10,10,10,.8);
+}
+
 /*#myread-article1-background {
 	background-color: rgba(240,240,240,.8);
 	border-radius: 10px;
