@@ -32,27 +32,121 @@
 	<!-- main container -->
 	<div class="container-fluid">
 		<!-- header -->
-		<header id="myhome-banner" class="row">
+		<header id="myhome-banner" class="row sticky-top">
 			<div id="myhome-logo" class="col-12 col-md-4 text-center">
-				<h1 class="my-auto">safespace.ph</h1>
-				<h5>You are not alone.</h5>
+				<a href="index.html">
+					<h1 class="my-auto">safespace.ph</h1>
+					<h5>You are not alone.</h5>
+				</a>
 			</div>
 
-			<nav id="myhome-nav" class="col-12 col-md-6 offset-md-2 col-lg-6 offset-lg-2 pt-3 px-0 text-md-right">
-				<a class="myhome-nav-active mx-1 pt-2 font-weight-bold" href="home.html">Home</a>
+			<nav id="myhome-nav" class="col-12 col-md-6 offset-md-2 col-lg-6 offset-lg-2 pt-3 pb-1 px-0 text-md-right">
+				<a id="myhome-nav-active" class="mx-1" href="home.html">Home</a>
 				<span> | </span>
-				<a class="mx-1 pt-2 font-weight-bold" href="read.html">Read</a>
+				<a id="" class="mx-1" href="read.html">Read</a>
 				<span> | </span>
-				<a class="mx-1 pt-2 font-weight-bold" href="shareandlearn.html">Share & Learn</a>
+				<a id="" class="mx-1" href="community.html">Community</a>
 				<span> | </span>
-				<a class="mx-1 pt-2 font-weight-bold" href="gethelp.html">Get Help</a>
+				<a id="" class="mx-1" href="gethelp.html">Get Help</a>
 			</nav>
 		</header>
 		<!-- end of header -->
 
 		<!-- previews -->
 		<main id="myhome-preview" class="row">
+			<a id="mygethelp-immediate" class="btn btn-outline-primary btn-lg btn-block" href="#">Get immediate help</a>
 			<!-- left side -->
+			<!-- main col -->
+			<blockquote class="p-3">
+				<div class="col-12 mt-3">
+					<h3 class="font-weight-bold">What Is Mental Health?</h3>	
+					<p>
+						Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.
+					</p>
+					<p>
+						Over the course of your life, if you experience mental health problems, your thinking, mood, and behavior could be affected. Many factors contribute to mental health problems, including:
+					</p>
+					<ul>
+						<li>Biological factors, such as genes or brain chemistry</li>
+						<li>Life experiences, such as trauma or abuse</li>
+						<li>Family history of mental health problems</li>
+					</ul>
+					<p>
+						Mental health problems are common but help is available. People with mental health problems can get better and many recover completely.
+					</p>
+					<!-- main accordion -->
+					<div id="myhome-accordion">
+						<!-- early warning signs -->
+						<div class="card">
+							<div class="pl-2 card-header">
+								<button id="myhome-button1" class="btn btn-info" data-toggle="collapse" data-target="#myhome-ews">
+								Early Warning Signs
+								</button>
+							</div>
+							<div id="myhome-ews" class="collapse" data-parent="#myhome-accordion">
+								<div id="myhome-ews-box" class="card-body">
+									<p>
+										Not sure if you or someone you know is living with mental health problems? Experiencing one or more of the following feelings or behaviors can be an early warning sign of a problem:
+									</p>
+									<ul>
+										<li>Eating or sleeping too much or too little</li>
+										<li>Pulling away from people and usual activities</li>
+										<li>Having low or no energy</li>
+										<li>Feeling numb or like nothing matters</li>
+										<li>Having unexplained aches and pains</li>
+										<li>Feeling helpless or hopeless</li>
+										<li>Smoking, drinking, or using drugs more than usual</li>
+										<li>Feeling unusually confused, forgetful, on edge, angry, upset, worried, or scared</li>
+										<li>Yelling or fighting with family and friends</li>
+										<li>Experiencing severe mood swings that cause problems in relationships</li>
+										<li>Having persistent thoughts and memories you can't get out of your head</li>
+										<li>Hearing voices or believing things that are not true</li>
+										<li>Thinking of harming yourself or others</li>
+										<li>Inability to perform daily tasks like taking care of your kids or getting to work or school</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- end early warning signs -->
+						<!-- mental health and wellness -->
+						<div class="card">
+							<div class="pl-2 card-header">
+								<button id="myhome-button2" class="btn btn-info" data-toggle="collapse" data-target="#myhome-mhnw">
+								Mental Health and Wellness
+								</button>
+							</div>
+							<div id="myhome-mhnw" class="collapse" data-parent="#myhome-accordion">
+								<div id="myhome-mhnw-box" class="card-body">
+									<p>
+										Positive mental health allows people to:
+									</p>
+									<ul>
+										<li>Realize their full potential</li>
+										<li>Cope with the stresses of life</li>
+										<li>Work productively</li>
+										<li>Make meaningful contributions to their communities</li>
+									</ul>
+									<p>
+										Ways to maintain positive mental health include:
+									</p>
+									<ul>
+										<li>Getting professional help if you need it</li>
+										<li>Connecting with others</li>
+										<li>Staying positive</li>
+										<li>Getting physically active</li>
+										<li>Helping others</li>
+										<li>Getting enough sleep</li>
+										<li>Developing coping skills</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- end mental health and wellness -->
+					</div>	
+					<!-- end main accordion -->
+				</div>	
+			</blockquote>
+			<!-- end main col -->
 			<section class="myhome-preview-leftside col-12 col-lg-7">
 
 				<div class="myhome-preview-article col-12 p-0 mx-3">
@@ -61,7 +155,7 @@
 						<p class="mb-0 font-weight-bold lead"><a class="myhome-textcolor" href="#">4 Ways Nature Can Help You Build Mental Strength</a></p>
 						<small class="text-muted">By Amy Morin - Apr 17, 2018</small>
 						<p class="mt-2 mb-0">The great outdoors offers many opportunities to build mental muscle.</p>
-						<a href="#" class="myhome-readmore btn float-right">Read more...</a>
+						<a href="read.html#myread-article1" class="myhome-readmore btn float-right">Read more...</a>
 					</div>
 				</div>
 
@@ -71,7 +165,7 @@
 						<p class="mb-0 font-weight-bold lead"><a class="myhome-textcolor" href="#">Five Self Care Ideas for the Modern Man</a></p>
 						<small class="text-muted">By Konstantin Lukin Ph.D. - Jun 02, 2018</small>
 						<p class="mt-2 mb-0">Self care isn't just an activity; it's a mindset.</p>
-						<a href="#" class="myhome-readmore btn float-right">Read more...</a>
+						<a href="read.html#myread-article2" class="myhome-readmore btn float-right">Read more...</a>
 					</div>
 				</div>
 
@@ -81,27 +175,17 @@
 						<p class="mb-0 font-weight-bold lead"><a class="myhome-textcolor" href="#">How to Be Happy When the People Around You Are Not</a></p>
 						<small class="text-muted">By Susan Krauss Whitbourne Ph.D. - Sep 29, 2018</small>
 						<p class="mt-2 mb-0">New study shows how to overcome the effects other people have on your happiness.</p>
-						<a href="#" class="myhome-readmore btn float-right">Read more...</a>
+						<a href="read.html#myread-article3" class="myhome-readmore btn float-right">Read more...</a>
 					</div>
 				</div>
 
 				<div class="myhome-preview-article col-12 p-0 mx-3">
 					<img class="myhome-preview-article-image img-fluid col-12 col-md-6 col-lg-5 float-left" src="assets/images/article4.jpg">
 					<div class="col-12 col-md-6 col-lg-7 float-right">
-						<p class="mb-0 font-weight-bold lead"><a class="myhome-textcolor" href="#">Are Your Boundaries Strong Enough?</a></p>
-						<small class="text-muted">By Darlene Lancer, JD, LMFT - Oct 23, 2018</small>
-						<p class="mt-2 mb-0">Discover types of boundaries and how to implement them.</p>
-						<a href="#" class="myhome-readmore btn float-right">Read more...</a>
-					</div>
-				</div>
-
-				<div class="myhome-preview-article col-12 p-0 mx-3">
-					<img class="myhome-preview-article-image img-fluid col-12 col-md-6 col-lg-5 float-left" src="assets/images/article5.jpg">
-					<div class="col-12 col-md-6 col-lg-7 float-right">
 						<p class="mb-0 font-weight-bold lead"><a class="myhome-textcolor" href="#">4 Proven Approaches to Increase Your Confidence Level</a></p>
 						<small class="text-muted">By Barbara Markway Ph.D. - Oct 23, 2018</small>
 						<p class="mt-2 mb-0">Stick with science-based therapies to improve your self-confidence.</p>
-						<a href="#" class="myhome-readmore btn float-right">Read more...</a>
+						<a href="read.html#myread-article4" class="myhome-readmore btn float-right">Read more...</a>
 					</div>
 				</div>
 			</section>

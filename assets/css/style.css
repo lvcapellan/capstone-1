@@ -11,11 +11,33 @@
 body {
 	background-color: rgba(240,240,240,.69);
 	width: 100vw;
+	overflow-x: hidden;
 }
 
 #mydisclaimer {
 	font-size: .8rem;
 	width: 100vw;
+}
+
+#mygethelp-immediate {
+	border-radius: 5px;
+	box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, .2);
+	color: hsla(348, 90%, 50%,.9);
+	border: 2px dashed hsla(348, 90%, 50%,.9);
+	font-weight: bolder;
+	width: 23%;
+	height: 3rem;
+	margin: 0 auto;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+#mygethelp-immediate:hover{
+	box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
+	border: 1px solid hsla(350, 100%, 50%,1);
+	background-color: hsla(350, 100%, 50%,1);
+	color: hsla(360, 100%, 100%,1);
+	transition: .3s;
 }
 
 #mybacktotop {
@@ -33,7 +55,8 @@ body {
 /*for mylanding*/
 /*left side*/
 #mylanding-left {
-	background-color: hsla(196, 100%, 65%,.3);
+	background-color: hsla(196, 100%, 85%,1);
+	background-color: linear-gradient(90deg, rgba(179,241,255,1) 0%, rgba(113,220,244,1) 50%, rgba(60,191,221,1) 100%);
 	box-shadow: inset 0 0 10px 0 hsla(196, 100%, 45%,.3);
 	border: 1px solid hsla(0, 0%, 0%,.3);
 	height: 95vh;
@@ -42,6 +65,7 @@ body {
 
 #mylanding-carousel img {
 	border-radius: 5px;
+	height: 15.5rem;
 }
 
 #mylanding-left-header {
@@ -149,6 +173,29 @@ body {
 	transition: .3s;
 }
 
+#mylanding-click-volunteer {
+	border: 1px solid hsla(200, 100%, 40%,1);
+	border-radius: 100px;
+	background-color: hsla(196, 100%, 50%,1);
+	color: hsla(360, 100%, 100%,.9);
+	font-weight: bold;
+	box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
+}
+
+#mylanding-click-volunteer:hover{
+	background-color: hsla(205, 100%, 50%,1);
+	color: hsla(360, 100%, 100%,.95);
+	transition: .3s;
+}
+
+#mylanding-click-close {
+	border: none;
+}
+
+#mylanding-click-close:hover {
+	background-color: inherit;
+	color: inherit;
+}
 /*end of right side*/
 /*end mylanding*/
 
@@ -158,8 +205,9 @@ body {
 /*for header*/
 
 #myhome-banner {
-	background-color: hsla(196, 100%, 65%,.3);
-	box-shadow: inset 0 0 10px 0 hsla(196, 100%, 45%,.3);
+	background-color: hsla(191,100%,85%, 1);
+	background-color: linear-gradient(90deg, rgba(179,241,255,1) 0%, rgba(113,220,244,1) 50%, rgba(60,191,221,1) 100%);
+	box-shadow: inset 0 0px 5px 1px hsla(191,100%,60%, .3);
 }
 
 #myhome-logo {
@@ -169,6 +217,11 @@ body {
 	user-select: none;
 	letter-spacing: 1px;
 	text-shadow: 1px 1px 1px rgba(10,10,10,.9);
+}
+
+#myhome-logo a{
+	text-decoration: none;
+	color: inherit;
 }
 
 #myhome-logo h1{
@@ -181,17 +234,22 @@ body {
 
 #myhome-nav a{
 	text-decoration: none;
-	color: hsla(196, 100%, 35%, 1);
+	color: rgba(10,10,10,.8);
 	letter-spacing: 1px;
-	text-shadow: 1px 1px 1px hsla(196, 100%, 10%, .8);
-	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(10,10,10,.8);
+	border-top: 1px solid rgba(10,10,10,.1);
+	border-bottom: 1px solid rgba(10,10,10,.1);
 }
 
 #myhome-nav a:hover{
-	border-top: 3px solid hsla(196, 100%, 30%, 1);
-	color: hsla(196, 100%, 20%, 1);
+	border-top: 3px solid rgba(10,10,10,1);
+	border-bottom: 3px solid rgba(10,10,10,1);
+	color: rgba(0,0,0,1);
+	text-shadow: 1px 1px 3px rgba(10,10,10,1);
 	text-transform: uppercase;
 	transition: .23s;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
 }
 /*end of header*/
 
@@ -200,10 +258,79 @@ body {
 	background-color: transparent;
 	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
 	border: 1px solid hsla(0, 0%, 0%,.3);
-	height: 86vh;
+	height: 84vh;
 	overflow-y: scroll;
+	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
-	padding: 1rem;
+	padding: 0;
+}
+
+#myhome-accordion {
+	margin: 0;
+	padding: 0;
+}
+
+#myhome-preview .card {
+	border: transparent;
+	background-color: transparent;
+}
+
+#myhome-preview .card-header {
+	border: transparent;
+	background-color: transparent;
+}
+
+#myhome-preview .card-body {
+	border: transparent;
+	background-color: transparent;
+}
+
+#myhome-mh-box {
+	padding: 0;
+}
+
+#myhome-ews-box {
+	padding: 0;
+}
+
+#myhome-mhnw-box {
+	padding: 0;
+}
+
+#myhome-button1 {
+	border: 1px solid hsla(200, 100%, 40%,1);
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	background-color: hsla(196, 100%, 50%,1);
+	color: hsla(360, 100%, 100%,.9);
+	font-weight: bold;
+	box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
+}
+
+#myhome-button1:hover{
+	background-color: hsla(205, 100%, 50%,1);
+	color: hsla(360, 100%, 100%,.95);
+	transition: .3s;
+}
+
+#myhome-button2 {
+	border: 1px solid hsla(200, 100%, 40%,1);
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	background-color: hsla(196, 100%, 50%,1);
+	color: hsla(360, 100%, 100%,.9);
+	font-weight: bold;
+	box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
+}
+
+#myhome-button2:hover{
+	background-color: hsla(205, 100%, 50%,1);
+	color: hsla(360, 100%, 100%,.95);
+	transition: .3s;
+}
+
+#myhome-preview ul{
+	font-size: 90%;
 }
 
 .myhome-preview-article {
@@ -265,7 +392,7 @@ body {
 	background-color: transparent;
 	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
 	border: 1px solid hsla(0, 0%, 0%,.3);
-	height: 86vh;
+	height: 84vh;
 	overflow-y: scroll;
 	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
@@ -399,10 +526,127 @@ body {
 
 
 
+/*read*/
+#myread-content {
+	background-color: transparent;
+	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
+	border: 1px solid hsla(0, 0%, 0%,.3);
+	height: 84vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+}
+
+#myread-content p{
+	margin-top: 1rem;
+}
+
+#myread-content h1{
+	font-weight: bolder;
+	letter-spacing: 1px;
+	text-shadow: 0px 0px 1px rgba(10,10,10,.9);
+}
+
+#myread-content h4{
+	text-shadow: 0px 0px 1px rgba(10,10,10,.9);
+}
+
+
+#myread-content h3{
+	margin-top: 2rem;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px rgba(10,10,10,.9);
+}
+
+#myread-content ul {
+	font-size: 90%;
+}
+
+.myread-image {
+	max-height: 20rem;
+	max-width: 20rem;
+	-webkit-user-select: none;       
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#myread-content #myread-latestarticle {
+	font-family: 'Exo 2', sans-serif;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 3px rgba(10,10,10,.69);
+}
+
+#myread-article-all .myread-comment-reply {
+	border-left: 1px solid rgba(10,10,10,.8);
+}
+
+#myread-content .card {
+	border: transparent;
+	background-color: transparent;
+}
+
+#myread-content .card-header {
+	border: transparent;
+	background-color: transparent;
+}
+
+#myread-content .card-body {
+	border: transparent;
+	background-color: transparent;
+}
+
+/*#myread-article1-background {
+	background-color: rgba(240,240,240,.8);
+	border-radius: 10px;
+	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);
+}
+
+#myread-article2-background {
+	background-color: rgba(240,240,240,.8);
+	border-radius: 10px;
+	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);
+}
+
+#myread-article3-background {
+	background-color: rgba(240,240,240,.8);
+	border-radius: 10px;
+	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);
+}
+
+#myread-article4-background {
+	background-color: rgba(240,240,240,.8);
+	border-radius: 10px;
+	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);
+}*/
+/*/end of read*/
+
+
+
+/*mycommunity*/
+#mycommunity-content {
+	background-color: transparent;
+	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
+	border: 1px solid hsla(0, 0%, 0%,.3);
+	height: 84vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+}
+/*end of mycommunity*/
+
+
+
 /*ACTIVE PAGE*/
-.myhome-nav-active {
-	border-top: 3px solid hsla(196, 100%, 30%, 1);
+#myhome-nav #myhome-nav-active {
 	text-transform: uppercase;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	border-top: 3px solid rgba(10,10,10,1);
+	border-bottom: 3px solid rgba(10,10,10,1);
+	color: rgba(0,0,0,1);
 }
 /*end of active page*/
 
@@ -413,22 +657,16 @@ body {
 ::-webkit-scrollbar {
     width: 1.4rem;
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px 0 hsla(0, 0%, 0%,.3);
-    border-radius: 10px;
-}
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background-color: hsla(196, 100%, 65%,.18); 
+    background-color: hsla(191, 100%, 85%,.2); 
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background-color: hsla(196, 100%, 65%,.23);
+    background-color: hsla(191, 100%, 85%,.3);
 }
 /*end of custom scrollbar*/
 
@@ -437,12 +675,16 @@ body {
 /*Desktop Styles*/
 @media only screen and (min-width: 992px){
 	/*for mylanding*/
+	#mylanding-carousel {
+		width: 30rem;
+	}
+
 	#mylanding-left {
 		font-size: 1.3rem;
 	}
 
 	#mylanding-left-header {
-		font-size: 2rem;
+		font-size: 2.4rem;
 		font-weight: bolder;
 	}
 
@@ -466,27 +708,31 @@ body {
 	}
 
 	.myhome-preview-article {
-	height: 15rem;
+		height: 15rem;
 	}
 	/*end of myhome*/
 }
 
 /*Tablet Styles*/
 @media only screen and (min-width: 577px) and (max-width: 991px){
+	#mygethelp-immediate {
+		width: 30%;
+	}
+
 	/*for mylanding*/
 	#mylanding-left {
 		font-size: 1.1rem;
-		height: 100vh;
+		height: 94vh;
 	}
 
 	#mylanding-left-header {
-		font-size: 1.5rem;
+		font-size: 2rem;
 		font-weight: bolder;
 	}
 
 	#mylanding-right {
 		font-size: 1.1rem;
-		height: 100vh;
+		height: 94vh;
 	}
 
 	#mylanding-right-text {
@@ -501,18 +747,26 @@ body {
 
 	/*for myhome*/
 	.myhome-preview-article {
-	height: 15rem;
+		height: 15rem;
 	}
 	/*end of myhome*/
 
 	/*my gethelp*/
 	
-	/*end of my gethelp*/
+	/*end of mygethelp*/
 }
 
 /*Mobile Styles*/
 @media only screen and (max-width: 576px){
+	#mygethelp-immediate {
+		width: 80%;
+	}
+
 	/*for mylanding*/
+	#mylanding-carousel img {
+		height: 6rem;
+	}
+
 	#mylanding-left {
 		font-size: .75rem;
 		height: 100vh;
@@ -533,8 +787,16 @@ body {
 		font-weight: bolder;
 	}
 
-	#mylanding-join,
-	#mylanding-volunteer,
+	#mylanding-join {
+		font-size: 1rem;
+		font-weight: bolder;
+	}
+
+	#mylanding-volunteer {
+		font-size: 1rem;
+		font-weight: bolder;
+	}
+
 	#mylanding-donate {
 		font-size: 1rem;
 		font-weight: bolder;
@@ -547,60 +809,91 @@ body {
 	}
 
 	.myhome-preview-article {
-	height: 27rem;
+		height: 27rem;
 	}
 	/*end of myhome*/
 
-	/*my gethelp*/
+	/*mygethelp*/
 	#mygethelp-content {
-	font-size: 85%; 
+		font-size: 100%; 
 	}
 
 	#mygethelp-content blockquote{
-	font-size: 90%;
+		font-size: 100%;
 	}
 
 	#mygethelp-content h3{
-	font-size: 150%;
-	font-weight: bolder;
-	letter-spacing: 1px;
+		font-size: 150%;
+		font-weight: bolder;
+		letter-spacing: 1px;
 	}
 
 	#mygethelp-content h5{
-	font-size: 120%;
-	font-weight: bold;
+		font-size: 120%;
+		font-weight: bold;
 	}
 
 	#mygethelp-free-box{
-	padding: 0;
+		padding: 0;
 	}
 
 	#mygethelp-paid-box{
-	padding: 0;
+		padding: 0;
 	}
 
 	#mygethelp-visayas-box{
-	padding: 0;
+		padding: 0;
 	}
 
 	#mygethelp-mindanao-box{
-	padding: 0;
+		padding: 0;
 	}
 
 	#mygethelp-accordion td{
-	word-wrap: break-word;
-	padding: 0;
+		word-wrap: break-word;
+		padding: 0;
 	}
 
 	#mygethelp-top {
-	text-decoration: none;
-	color: rgba(100,10,10,.5);
-	font-size: smaller;
+		text-decoration: none;
+		color: rgba(100,10,10,.5);
+		font-size: smaller;
 	}
 
 	#mybacktotop {
-	font-size: large;
+		font-size: large;
 	}
-	/*end of my gethelp*/
+	/*end of mygethelp*/
 
-}
+	/*myread*/
+	.myread-image {
+		max-height: 15rem;
+		max-width: 15rem;
+	}
+
+	/*#myread-article4 {
+		padding-top: 6rem;
+		margin-top: 6rem;
+	}*/
+
+	#myread-article3 {
+		padding-top: 6rem;
+		margin-top: 6rem;
+	}
+
+	#myread-article2 {
+		padding-top: 6rem;
+		margin-top: 6rem;
+	}
+
+	#myread-article1 {
+		padding-top: 6rem;
+		margin-top: 6rem;
+	}
+
+	#myread-content #myread-latestarticle {
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	}
+	/*end of myread*/
+}	
