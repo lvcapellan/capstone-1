@@ -509,22 +509,53 @@ body {
 	padding: 0;
 }
 
-#myread-content .card,
-#myread-content .card-header,
-#myread-content .card-body
-{
+#myread-content .card {
 	border: transparent;
 	background-color: transparent;
 }
 
-#myread-mh-box,
-#myread-ews-box,
+#myread-content .card-header {
+	border: transparent;
+	background-color: transparent;
+}
+
+#myread-content .card-body {
+	border: transparent;
+	background-color: transparent;
+}
+
+#myread-mh-box {
+	padding: 0;
+}
+
+#myread-ews-box {
+	padding: 0;
+}
+
 #myread-mhnw-box {
 	padding: 0;
 }
 
-#myread-button,
-#myread-button1,
+#myread-button {
+	border: 2px solid hsla(196, 100%, 45%,1);
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	background-color: hsla(0,0%,90%,.6);
+	color: inherit;
+	padding: .25rem;
+	box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%,.3);
+}
+
+#myread-button1 {
+	border: 2px solid hsla(196, 100%, 45%,1);
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	background-color: hsla(0,0%,90%,.6);
+	color: inherit;
+	padding: .25rem;
+	box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%,.3);
+}
+
 #myread-button2 {
 	border: 2px solid hsla(196, 100%, 45%,1);
 	border-top-right-radius: 100px;
@@ -707,8 +738,16 @@ body {
 		font-weight: bolder;
 	}
 
-	#mylanding-join,
-	#mylanding-volunteer,
+	#mylanding-join {
+		font-size: 1rem;
+		font-weight: bolder;
+	}
+
+	#mylanding-volunteer {
+		font-size: 1rem;
+		font-weight: bolder;
+	}
+
 	#mylanding-donate {
 		font-size: 1rem;
 		font-weight: bolder;
@@ -782,15 +821,27 @@ body {
 		max-height: 15rem;
 		max-width: 15rem;
 	}
-	/*#myread-article4,*/
-	#myread-article3,
-	#myread-article2,
+	
+	/*#myread-article4 {
+		padding-top: 6rem;
+		margin-top: 6rem;
+	}*/
+
+	#myread-article3 {
+		padding-top: 6rem;
+		margin-top: 6rem;
+	}
+
+	#myread-article2 {
+		padding-top: 6rem;
+		margin-top: 6rem;
+	}
+
 	#myread-article1 {
 		padding-top: 6rem;
-		/*padding-bottom: 6rem;*/
 		margin-top: 6rem;
-		/*margin-bottom: 6rem;*/
 	}
+
 	#myread-content #myread-latestarticle {
 		padding-top: 1.5rem;
 		padding-bottom: 1.5rem;
