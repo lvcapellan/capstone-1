@@ -636,6 +636,10 @@ body {
 	padding: 0;
 }
 
+#mycommunity-content .card{
+	height: 20rem; 
+	width: 20rem;
+}
 
 /*end of mycommunity*/
 
