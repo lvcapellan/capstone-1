@@ -67,6 +67,14 @@ body {
 	transition: .3s;
 }
 
+.modal-header {
+	background-color: hsla(196, 100%, 85%,1);
+}
+
+.modal-footer {
+	background-color: rgba(240,240,240,.69);
+}
+
 /*for mylanding*/
 /*left side*/
 #mylanding-left {
