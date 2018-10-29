@@ -52,6 +52,21 @@ body {
 	transition: .3s;
 }
 
+.btn-info {
+	border: 1px solid hsla(200, 100%, 40%,1);
+	border-radius: 100px;
+	background-color: hsla(196, 100%, 50%,1);
+	color: hsla(360, 100%, 100%,.9);
+	font-weight: bold;
+	box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
+}
+
+.btn-info:hover{
+	background-color: hsla(205, 100%, 50%,1);
+	color: hsla(360, 100%, 100%,.95);
+	transition: .3s;
+}
+
 /*for mylanding*/
 /*left side*/
 #mylanding-left {
@@ -76,6 +91,7 @@ body {
 
 #mylanding-left-subheader {
 	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 }
 
 /*end left side*/
@@ -333,9 +349,14 @@ body {
 	font-size: 90%;
 }
 
+#myhome-preview p{
+	font-size: 95%;
+}
+
 .myhome-preview-article {
 	opacity: .9;
 	margin: 1rem;
+	height: 12rem;
 }
 
 .myhome-preview-article img{
@@ -361,7 +382,7 @@ body {
 	transition: .2s;
 }
 
-.myhome-readmore {
+/*.myhome-readmore {
 	border: 1px solid hsla(348, 90%, 70%,1);
 	border-radius: 100px;
 	background-color: transparent;
@@ -377,7 +398,7 @@ body {
 	color: hsla(360, 100%, 100%,.9);
 	font-weight: bolder;
 	transition: .3s;
-}
+}*/
 
 /*end of preview*/
 /*end of myhome*/
@@ -704,6 +725,10 @@ body {
 		font-size: 2rem;
 		font-weight: bolder;
 	}
+
+	#mylanding-left-subheader p{
+		margin-bottom: 3rem;
+	}
 	/*end of mylanding */
 
 	/*for myhome*/
@@ -742,6 +767,10 @@ body {
 	#mylanding-right-header {
 		font-size: 1.5rem;
 		font-weight: bolder;
+	}
+
+	#mylanding-left-subheader p{
+		margin-bottom: 3rem;
 	}
 	/*end of mylanding */
 
@@ -808,6 +837,10 @@ body {
 
 	#myhome-preview {
 		font-size: 90%;
+	}
+
+	.myhome-preview-article {
+		height: 24rem;
 	}
 
 	/*end of myhome*/
