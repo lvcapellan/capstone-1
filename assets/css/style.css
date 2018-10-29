@@ -75,6 +75,10 @@ body {
 	background-color: rgba(240,240,240,.69);
 }
 
+#no-background {
+	background-color: transparent;
+}
+
 /*for mylanding*/
 /*left side*/
 #mylanding-left {
@@ -294,17 +298,17 @@ body {
 	padding: 0;
 }
 
-#myhome-preview .card {
+.myhome-preview-leftside .card {
 	border: transparent;
 	background-color: transparent;
 }
 
-#myhome-preview .card-header {
+.myhome-preview-leftside .card-header {
 	border: transparent;
 	background-color: transparent;
 }
 
-#myhome-preview .card-body {
+.myhome-preview-leftside .card-body {
 	border: transparent;
 	background-color: transparent;
 }
@@ -364,7 +368,7 @@ body {
 .myhome-preview-article {
 	opacity: .9;
 	margin: 1rem;
-	height: 12rem;
+	height: 11rem;
 }
 
 .myhome-preview-article img{
