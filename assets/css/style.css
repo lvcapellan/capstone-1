@@ -336,7 +336,15 @@ body {
 .myhome-preview-article {
 	opacity: .9;
 	margin: 1rem;
-	border-bottom: 1px solid hsla(0, 0%, 0%, .3);
+}
+
+.myhome-preview-article img{
+	height: 10rem;
+	width: 15rem;
+}
+
+.myhome-preview-article:hover {
+	opacity: 1;
 }
 
 .myhome-preview-article a{
@@ -351,16 +359,6 @@ body {
 	color: rgba(0,0,0,1);
 	font-weight: bolder;
 	transition: .2s;
-}
-
-.myhome-preview-article-image {
-	width: 18rem;
-	height: 9.5rem;
-	opacity: .9;
-}
-
-.myhome-preview-article:hover {
-	opacity: 1;
 }
 
 .myhome-readmore {
@@ -637,8 +635,8 @@ body {
 }
 
 #mycommunity-content .card{
-	height: 20rem; 
-	width: 20rem;
+	height: 17rem; 
+	width: 17rem;
 }
 
 /*end of mycommunity*/
@@ -712,10 +710,6 @@ body {
 	#myhome-nav a{
 		font-size: 1.5rem;
 	}
-
-	.myhome-preview-article {
-		height: 15rem;
-	}
 	/*end of myhome*/
 }
 
@@ -752,9 +746,7 @@ body {
 	/*end of mylanding */
 
 	/*for myhome*/
-	.myhome-preview-article {
-		height: 15rem;
-	}
+
 	/*end of myhome*/
 
 	/*my gethelp*/
@@ -814,18 +806,19 @@ body {
 		font-size: .85rem;
 	}
 
-	.myhome-preview-article {
-		height: 27rem;
+	#myhome-preview {
+		font-size: 90%;
 	}
+
 	/*end of myhome*/
 
 	/*mygethelp*/
 	#mygethelp-content {
-		font-size: 100%; 
+		font-size: 90%; 
 	}
 
 	#mygethelp-content blockquote{
-		font-size: 100%;
+		font-size: 90%;
 	}
 
 	#mygethelp-content h3{
@@ -873,8 +866,8 @@ body {
 
 	/*myread*/
 	.myread-image {
-		max-height: 15rem;
-		max-width: 15rem;
+		max-height: 11rem;
+		max-width: 11rem;
 	}
 
 	/*#myread-article4 {
@@ -900,6 +893,22 @@ body {
 	#myread-content #myread-latestarticle {
 		padding-top: 1.5rem;
 		padding-bottom: 1.5rem;
+	}
+
+	#myread-content {
+		font-size: 85%;
+	}
+
+	#myread-content h1{
+		font-size: 200%;
+	}
+
+	#myread-content h4{
+		font-size: 120%;
+	}
+
+	#myread-content h3{
+		font-size: 130%;
 	}
 	/*end of myread*/
 }	
