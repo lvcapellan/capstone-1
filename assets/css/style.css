@@ -18,13 +18,6 @@ body {
 	font-size: .8rem;
 }
 
-/*.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}*/
-
 #mygethelp-immediate {
 	background-color: transparent;
 	border-radius: 5px;
@@ -98,7 +91,6 @@ body {
 
 #mylanding-carousel img {
 	border-radius: 5px;
-	height: 15.5rem;
 }
 
 #mylanding-left-header {
@@ -235,7 +227,6 @@ body {
 
 /*for myhome*/
 /*for header*/
-
 #myhome-banner {
 	background-color: hsla(191,100%,85%, 1);
 	background-color: linear-gradient(90deg, rgba(179,241,255,1) 0%, rgba(113,220,244,1) 50%, rgba(60,191,221,1) 100%);
@@ -396,30 +387,6 @@ body {
 	font-weight: bolder;
 	transition: .2s;
 }
-
-.myhome-preview-rightside .card{
-	height: 15rem; 
-	width: 15rem;
-}
-
-/*.myhome-readmore {
-	border: 1px solid hsla(348, 90%, 70%,1);
-	border-radius: 100px;
-	background-color: transparent;
-	color: hsla(348, 90%, 70%,1);
-	font-weight: bold;
-	box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
-	font-size: 80%;
-}
-
-.myhome-readmore:hover{
-	border: 1px solid hsla(348, 90%, 70%,1);
-	background-color: hsla(348, 90%, 70%,1);
-	color: hsla(360, 100%, 100%,.9);
-	font-weight: bolder;
-	transition: .3s;
-}*/
-
 /*end of preview*/
 /*end of myhome*/
 
@@ -557,8 +524,6 @@ body {
 #mygethelp-accordion td{
 	word-wrap: break-word;
 }
-
-
 /*end of content*/
 /*end of gethelp*/
 
@@ -682,7 +647,6 @@ body {
 	height: 17rem; 
 	width: 17rem;
 }
-
 /*end of mycommunity*/
 
 
@@ -724,7 +688,11 @@ body {
 @media only screen and (min-width: 992px){
 	/*for mylanding*/
 	#mylanding-carousel {
-		width: 30rem;
+		width: 65%;
+	}
+
+	#mylanding-carousel img{
+		height: 15.5rem;
 	}
 
 	#mylanding-left {
@@ -752,7 +720,7 @@ body {
 	}
 
 	#mylanding-left-subheader p{
-		margin-bottom: 3rem;
+		margin-bottom: 2.3rem;
 	}
 	/*end of mylanding */
 
@@ -799,16 +767,16 @@ body {
 	}.5
 	/*end of myread*/
 
-	#mymainbox {
+/*	#mymainbox {
 		padding-bottom: 1rem;
-	}
+	}*/
 }
 
 /*Tablet Styles*/
 @media only screen and (min-width: 577px) and (max-width: 991px){
 	/*for mylanding*/
 	#mylanding-carousel {
-		width: 40rem;
+		width: 70%;
 	}
 
 	#mylanding-carousel img {
@@ -839,7 +807,7 @@ body {
 	}
 
 	#mylanding-left-subheader p{
-		margin-bottom: 3rem;
+		margin-bottom: 1.4rem;
 	}
 	/*end of mylanding */
 
@@ -872,6 +840,10 @@ body {
 /*Mobile Styles*/
 @media only screen and (max-width: 576px){
 	/*for mylanding*/
+	#mylanding-carousel {
+		width: 70%;
+	}
+
 	#mylanding-carousel img {
 		height: 10rem;
 	}
@@ -1035,7 +1007,7 @@ body {
 		font-size: 65%;
 	}
 
-	#mymainbox {
+	/*#mymainbox {
 		padding-bottom: 3rem;
-	}
+	}*/
 }	
