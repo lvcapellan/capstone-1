@@ -18,12 +18,12 @@ body {
 	font-size: .8rem;
 }
 
-.footer {
+/*.footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-}
+}*/
 
 #mygethelp-immediate {
 	background-color: transparent;
@@ -575,6 +575,12 @@ body {
 	padding: 0;
 }
 
+#myread-content .getbig{
+	font-size: 170%;
+	font-weight: bolder;
+	text-shadow: 0px 0px 1px rgba(10,10,10,.9);
+}
+
 #myread-content p{
 	margin-top: 1rem;
 }
@@ -776,6 +782,21 @@ body {
 	#myread-content {
 		height: 100%;
 	}
+
+	#myread-article3 {
+		padding-top: 4rem;
+		margin-top: 4rem;
+	}
+
+	#myread-article2 {
+		padding-top: 4rem;
+		margin-top: 4rem;
+	}
+
+	#myread-article1 {
+		padding-top: 4rem;
+		margin-top: 4rem;
+	}.5
 	/*end of myread*/
 
 	#mymainbox {
@@ -785,10 +806,6 @@ body {
 
 /*Tablet Styles*/
 @media only screen and (min-width: 577px) and (max-width: 991px){
-	#mygethelp-immediate {
-		width: 30%;
-	}
-
 	/*for mylanding*/
 	#mylanding-carousel {
 		width: 40rem;
@@ -833,14 +850,27 @@ body {
 	/*my gethelp*/
 	
 	/*end of mygethelp*/
+
+	/*myread*/
+	#myread-article3 {
+		padding-top: 4rem;
+		margin-top: 4rem;
+	}
+
+	#myread-article2 {
+		padding-top: 4rem;
+		margin-top: 4rem;
+	}
+
+	#myread-article1 {
+		padding-top: 4rem;
+		margin-top: 4rem;
+	}
+	/*end myread*/
 }
 
 /*Mobile Styles*/
 @media only screen and (max-width: 576px){
-	#mygethelp-immediate {
-		width: 80%;
-	}
-
 	/*for mylanding*/
 	#mylanding-carousel img {
 		height: 10rem;
@@ -955,8 +985,8 @@ body {
 
 	/*myread*/
 	.myread-image {
-		max-height: 11rem;
-		max-width: 11rem;
+		max-height: 10rem;
+		max-width: 10rem;
 	}
 
 	/*#myread-article4 {
@@ -965,18 +995,18 @@ body {
 	}*/
 
 	#myread-article3 {
-		padding-top: 6rem;
-		margin-top: 6rem;
+		padding-top: 6.5rem;
+		margin-top: 6.5rem;
 	}
 
 	#myread-article2 {
-		padding-top: 6rem;
-		margin-top: 6rem;
+		padding-top: 6.5rem;
+		margin-top: 6.5rem;
 	}
 
 	#myread-article1 {
-		padding-top: 6rem;
-		margin-top: 6rem;
+		padding-top: 6.5rem;
+		margin-top: 6.5rem;
 	}
 
 	#myread-content #myread-latestarticle {
@@ -993,16 +1023,16 @@ body {
 	}
 
 	#myread-content h4{
-		font-size: 120%;
+		font-size: 110%;
 	}
 
 	#myread-content h3{
-		font-size: 130%;
+		font-size: 120%;
 	}
 	/*end of myread*/
 
 	#mydisclaimer {
-		font-size: 40%;
+		font-size: 65%;
 	}
 
 	#mymainbox {
