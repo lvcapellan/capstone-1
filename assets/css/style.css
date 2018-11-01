@@ -80,8 +80,17 @@ body {
 	background-color: transparent;
 }
 
+#mymain-container .no-link {
+	text-decoration: none;
+}
+
 .btn:focus, .btn.focus {
-  box-shadow: none;
+	box-shadow: none;
+}
+
+.btn:hover {
+	transform: scale(1.05);
+	transition: .3s;
 }
 
 #mymain-container {
@@ -89,7 +98,7 @@ body {
 	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
 	border: 1px solid hsla(0, 0%, 0%,.3);
 	font-family: 'Roboto', sans-serif;
-	padding: 0;
+	padding: 1rem;
 }
 
 /*for mylanding*/
@@ -663,6 +672,12 @@ body {
 #mycommunity-content .card{
 	height: 17rem; 
 	width: 17rem;
+}
+
+#mycommunity-content .card:hover{
+	transform: scale(1.08);
+	transition: .3s;
+	box-shadow: 1px 1px 4px 0 rgba(10,10,10,.69);
 }
 /*end of mycommunity*/
 
