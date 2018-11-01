@@ -278,6 +278,19 @@ body {
 	padding-top: .2rem;
 	padding-bottom: .2rem;
 }
+
+#myhome-nav #myhome-nav-logout {
+	font-weight: lighter;
+	text-shadow: none;
+	letter-spacing: none;
+	border: 0;
+	font-size: x-small;
+	padding: 0;
+}
+
+#myhome-nav #myhome-nav-logout:hover{
+	text-transform: none;
+}
 /*end of header*/
 
 /*for preview*/

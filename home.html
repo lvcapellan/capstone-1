@@ -37,10 +37,8 @@
 		<!-- header -->
 		<header id="myhome-banner" class="row sticky-top">
 			<div id="myhome-logo" class="col-12 col-md-4 text-center">
-				<a href="index.html">
-					<h1 class="my-auto">safespace.ph</h1>
-					<h5>You are not alone.</h5>
-				</a>
+				<h1 class="my-auto">safespace.ph</h1>
+				<h5>You are not alone.</h5>
 			</div>
 
 			<nav id="myhome-nav" class="col-12 col-md-6 offset-md-2 col-lg-6 offset-lg-2 pt-3 pb-1 px-0 text-md-right">
@@ -48,12 +46,29 @@
 				<span> | </span>
 				<a id="" class="mx-1" href="read.html">Read</a>
 				<span> | </span>
-				<a id="" class="mx-1" href="community.html">Community</a>
+				<a id="" class="mx-1" href="connect.html">Connect</a>
 				<span> | </span>
 				<a id="" class="mx-1" href="faq.html">FAQ</a>
+				<a id="myhome-nav-logout" class="mx-1 text-muted" data-toggle="modal" data-target="#logout">Log Out</a>
 			</nav>
 		</header>
 		<!-- end of header -->
+		<!-- modal -->
+		<div id="logout" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<h5 class="modal-title text-left">Are you sure you want to log out?</h5>
+					</div>
+						
+					<div class="modal-footer">
+						<button type="button" class="btn btn-info float-right mr-2" data-dismiss="modal">No</button>
+						<a href="index.html"><button class="btn btn-danger float-right">Yes</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end modal -->
 
 		<!-- previews -->
 		<main id="myhome-preview" class="row">
@@ -116,6 +131,7 @@
 				</div>
 				<!-- end modal -->
 			</div>
+			
 			<!-- left side -->
 			<section class="myhome-preview-leftside col-12 col-lg-5">
 

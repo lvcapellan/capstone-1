@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title> safespace.ph | Share & Learn </title>
+	<title> safespace.ph | Connect </title>
 
 	<!-- icon -->
 	<link rel="icon" type="images/png" href="assets/images/icon.png">
@@ -35,10 +35,8 @@
 		<!-- header -->
 		<header id="myhome-banner" class="row sticky-top">
 			<div id="myhome-logo" class="col-12 col-md-4 text-center">
-				<a href="index.html">
-					<h1 class="my-auto">safespace.ph</h1>
-					<h5>You are not alone.</h5>
-				</a>
+				<h1 class="my-auto">safespace.ph</h1>
+				<h5>You are not alone.</h5>
 			</div>
 
 			<nav id="myhome-nav" class="col-12 col-md-6 offset-md-2 col-lg-6 offset-lg-2 pt-3 pb-1 px-0 text-md-right">
@@ -46,12 +44,29 @@
 				<span> | </span>
 				<a id="" class="mx-1" href="read.html">Read</a>
 				<span> | </span>
-				<a id="myhome-nav-active" class="mx-1" href="community.html">Community</a>
+				<a id="myhome-nav-active" class="mx-1" href="connect.html">Connect</a>
 				<span> | </span>
 				<a id="" class="mx-1" href="faq.html">FAQ</a>
+				<a id="myhome-nav-logout" class="mx-1 text-muted" data-toggle="modal" data-target="#logout">Log Out</a>
 			</nav>
 		</header>
 		<!-- end of header -->
+		<!-- modal -->
+		<div id="logout" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<h5 class="modal-title text-left">Are you sure you want to log out?</h5>
+					</div>
+						
+					<div class="modal-footer">
+						<button type="button" class="btn btn-info float-right mr-2" data-dismiss="modal">No</button>
+						<a href="index.html"><button class="btn btn-danger float-right">Yes</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end modal -->
 
 		<!-- community -->
 		<main id="mycommunity-content" class="row">
@@ -114,36 +129,37 @@
 				</div>
 				<!-- end modal -->
 			</div>
+			
 			<!-- create content -->
 			<div class="container-fluid my-2">
 				<div class="row">
 					<a class="btn ml-auto p-0 text-dark bg-transparent font-weight-bold" data-toggle="modal" data-target="#createcontent"><i class="fas fa-plus-circle"></i>Create new post</a>
 					<!-- modal -->
-						<div id="createcontent" class="modal fade" tabindex="-1" role="dialog">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 id="mylanding-register-label" class="modal-title">Create new post</h5>
-										<button type="button" class="close" data-dismiss="modal">
-											<span>&#10060;</span>
-										</button>
-									</div>
-									<div class="modal-body">
-										<form>
-											<div class="form-group">
-												<textarea rows="5" class="form-control"></textarea>
-												<input type="checkbox" name="anon" value="anon"> Post anonymously
-											</div>
-											<div id="no-background" class="modal-footer">
-												<button id="mylanding-click-close" type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
-												<button id="mylanding-click-volunteer" type="submit" class="btn btn-primary">Create post</button>
-											</div>
-										</form>
-									</div>
+					<div id="createcontent" class="modal fade" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 id="mylanding-register-label" class="modal-title">Create new post</h5>
+									<button type="button" class="close" data-dismiss="modal">
+										<span>&#10060;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="form-group">
+											<textarea rows="5" class="form-control"></textarea>
+											<input type="checkbox" name="anon" value="anon"> Post anonymously
+										</div>
+										<div id="no-background" class="modal-footer">
+											<button id="mylanding-click-close" type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+											<button id="mylanding-click-volunteer" type="submit" class="btn btn-primary">Create post</button>
+										</div>
+									</form>
 								</div>
 							</div>
 						</div>
-						<!-- end modal -->
+					</div>
+					<!-- end modal -->
 				</div>		
 			</div>
 			<!-- end create content -->
