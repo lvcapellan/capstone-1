@@ -80,6 +80,10 @@ body {
 	background-color: transparent;
 }
 
+.btn:focus, .btn.focus {
+  box-shadow: none;
+}
+
 /*for mylanding*/
 /*left side*/
 #mylanding-left {
