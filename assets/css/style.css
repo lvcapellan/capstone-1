@@ -84,6 +84,14 @@ body {
   box-shadow: none;
 }
 
+#mymain-container {
+	background-color: transparent;
+	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
+	border: 1px solid hsla(0, 0%, 0%,.3);
+	font-family: 'Roboto', sans-serif;
+	padding: 1rem;
+}
+
 /*for mylanding*/
 /*left side*/
 #mylanding-left {
@@ -296,8 +304,6 @@ body {
 /*for preview*/
 #myhome-preview {
 	background-color: transparent;
-	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
-	border: 1px solid hsla(0, 0%, 0%,.3);
 	overflow-y: scroll;
 	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
@@ -413,8 +419,6 @@ body {
 /*content*/
 #mygethelp-content {
 	background-color: transparent;
-	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
-	border: 1px solid hsla(0, 0%, 0%,.3);
 	overflow-y: scroll;
 	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
@@ -549,8 +553,6 @@ body {
 /*read*/
 #myread-content {
 	background-color: transparent;
-	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
-	border: 1px solid hsla(0, 0%, 0%,.3);
 	overflow-y: scroll;
 	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
@@ -652,8 +654,6 @@ body {
 /*mycommunity*/
 #mycommunity-content {
 	background-color: transparent;
-	box-shadow: inset 0 0 10px 0 hsla(0, 0%, 0%,.3);
-	border: 1px solid hsla(0, 0%, 0%,.3);
 	overflow-y: scroll;
 	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
@@ -783,10 +783,6 @@ body {
 		margin-top: 4rem;
 	}.5
 	/*end of myread*/
-
-/*	#mymainbox {
-		padding-bottom: 1rem;
-	}*/
 }
 
 /*Tablet Styles*/
@@ -1023,8 +1019,4 @@ body {
 	#mydisclaimer {
 		font-size: 65%;
 	}
-
-	/*#mymainbox {
-		padding-bottom: 3rem;
-	}*/
 }	
