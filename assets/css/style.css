@@ -865,6 +865,202 @@ body {
 	/*end myread*/
 }
 
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  	/*for mylanding*/
+  	#mylanding-carousel {
+  		width: 70%;
+  	}
+
+  	#mylanding-carousel img {
+  		height: 20rem;
+  	}
+
+  	#mylanding-left {
+  		font-size: 1.1rem;
+  	}
+
+  	#mylanding-left-header {
+  		font-size: 2rem;
+  		font-weight: bolder;
+  	}
+
+  	#mylanding-right {
+  		font-size: 1.1rem;
+  	}
+
+  	#mylanding-right-text {
+  		padding-top: 1.5rem;
+  		padding-bottom: 1.5rem;
+  	}
+
+  	#mylanding-right-header {
+  		font-size: 1.5rem;
+  		font-weight: bolder;
+  	}
+
+  	#mylanding-left-subheader p{
+  		margin-bottom: 1.4rem;
+  	}
+  	/*end of mylanding */
+
+  	/*for myhome*/
+
+  	/*end of myhome*/
+
+  	/*my gethelp*/
+  	
+  	/*end of mygethelp*/
+
+  	/*myread*/
+  	#myread-article3 {
+  		padding-top: 4rem;
+  		margin-top: 4rem;
+  	}
+
+  	#myread-article2 {
+  		padding-top: 4rem;
+  		margin-top: 4rem;
+  	}
+
+  	#myread-article1 {
+  		padding-top: 4rem;
+  		margin-top: 4rem;
+  	}
+  	/*end myread*/
+}
+
+/* Landscape*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5)	{
+ 	/*for mylanding*/
+ 	#mylanding-carousel {
+ 		width: 70%;
+ 	}
+
+ 	#mylanding-carousel img {
+ 		height: 20rem;
+ 	}
+
+ 	#mylanding-left {
+ 		font-size: 1.1rem;
+ 	}
+
+ 	#mylanding-left-header {
+ 		font-size: 2rem;
+ 		font-weight: bolder;
+ 	}
+
+ 	#mylanding-right {
+ 		font-size: 1.1rem;
+ 	}
+
+ 	#mylanding-right-text {
+ 		padding-top: 1.5rem;
+ 		padding-bottom: 1.5rem;
+ 	}
+
+ 	#mylanding-right-header {
+ 		font-size: 1.5rem;
+ 		font-weight: bolder;
+ 	}
+
+ 	#mylanding-left-subheader p{
+ 		margin-bottom: 1.4rem;
+ 	}
+ 	/*end of mylanding */
+
+ 	/*for myhome*/
+
+ 	/*end of myhome*/
+
+ 	/*my gethelp*/
+ 	
+ 	/*end of mygethelp*/
+
+ 	/*myread*/
+ 	#myread-article3 {
+ 		padding-top: 4rem;
+ 		margin-top: 4rem;
+ 	}
+
+ 	#myread-article2 {
+ 		padding-top: 4rem;
+ 		margin-top: 4rem;
+ 	}
+
+ 	#myread-article1 {
+ 		padding-top: 4rem;
+ 		margin-top: 4rem;
+ 	}
+ 	/*end myread*/
+}
+
+/* Portrait*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+	/*for mylanding*/
+	#mylanding-carousel {
+		width: 70%;
+	}
+
+	#mylanding-carousel img {
+		height: 20rem;
+	}
+
+	#mylanding-left {
+		font-size: 1.1rem;
+	}
+
+	#mylanding-left-header {
+		font-size: 2rem;
+		font-weight: bolder;
+	}
+
+	#mylanding-right {
+		font-size: 1.1rem;
+	}
+
+	#mylanding-right-text {
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	}
+
+	#mylanding-right-header {
+		font-size: 1.5rem;
+		font-weight: bolder;
+	}
+
+	#mylanding-left-subheader p{
+		margin-bottom: 1.4rem;
+	}
+	/*end of mylanding */
+
+	/*for myhome*/
+
+	/*end of myhome*/
+
+	/*my gethelp*/
+	
+	/*end of mygethelp*/
+
+	/*myread*/
+	#myread-article3 {
+		padding-top: 4rem;
+		margin-top: 4rem;
+	}
+
+	#myread-article2 {
+		padding-top: 4rem;
+		margin-top: 4rem;
+	}
+
+	#myread-article1 {
+		padding-top: 4rem;
+		margin-top: 4rem;
+	}
+	/*end myread*/
+}
+
 /*Mobile Styles*/
 @media only screen and (max-width: 576px){
 	/*for mylanding*/
