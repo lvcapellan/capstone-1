@@ -15,7 +15,7 @@ body {
 }
 
 #mydisclaimer {
-	font-size: .8rem;
+	font-size: .7rem;
 }
 
 #mygethelp-immediate {
@@ -576,6 +576,7 @@ body {
 
 #myread-content p{
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 #myread-content h1{
@@ -633,29 +634,37 @@ body {
 	background-color: transparent;
 }
 
-/*#myread-article1-background {
-	background-color: rgba(240,240,240,.8);
+#myread-article1-background {
+	/*background-color: rgba(240,240,240,.8);
 	border-radius: 10px;
-	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);
+	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);*/
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 #myread-article2-background {
-	background-color: rgba(240,240,240,.8);
+	/*background-color: rgba(240,240,240,.8);
 	border-radius: 10px;
-	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);
+	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);*/
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 #myread-article3-background {
-	background-color: rgba(240,240,240,.8);
+	/*background-color: rgba(240,240,240,.8);
 	border-radius: 10px;
-	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);
+	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);*/
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 #myread-article4-background {
-	background-color: rgba(240,240,240,.8);
+	/*background-color: rgba(240,240,240,.8);
 	border-radius: 10px;
-	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);
-}*/
+	box-shadow: inset 0 0 5px 0 rgba(10,10,10,.3);*/
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
 /*/end of read*/
 
 
